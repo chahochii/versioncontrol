@@ -2,8 +2,11 @@
 
 def is_zero(x: int) -> bool: 
     ''' TODO takes an int, returns true if it's zero, false otherwise'''
-    # TODO 
-    return None
+    # TODO Sheila's function
+    if(True):
+    return "yep 0"
+else:
+    return "nope"
 
 def is_one(x: int) -> bool: 
     ''' TODO takes an int, returns true if it's one, else false''' 
@@ -45,6 +48,10 @@ def inc7(x: int) -> str:
     # TODO
     return None
 
+def inc8(x: str) -> str:
+    #if i plug jojo I get a return of "no"
+
 if __name__=='__main__': 
     print(str(inc1(inc5(0))), inc6(0))
     print(str(inc2(inc4(1000))), inc7(1000))
+    
